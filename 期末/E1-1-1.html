@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>進行中的委託單</title>
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/expertstyle.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    </head>
+
+<body>
+    <div class="expertlisttitle">
+        <p class="col-7 ">進行中的委託</p>
+
+    </div>
+    <div class="container">
+
+        <div class="expertlsit mx-auto">
+
+            <div class="mx-auto w-70 p-5">
+                <div class="mb-3 form-control-lg">
+                    委託者:
+                  </div>
+                  <div class="mb-3 form-control-lg">
+                    接案者:
+                  </div>
+               
+                <hr>
+                <div class="mb-3 form-control-lg ">
+                    委託內容:
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" readonly id="TaskTextarea" style="height: 400px"></textarea>
+
+                </div>
+                <!--委託時間-->
+                <div class=" border mb-3">
+                    <div class="form-control-lg">
+                        委託時間:
+                    </div>
+
+                    <div class="mb-3 row p-3">
+                        <div class="form-floating col-5 p-3">
+                            <input type="text" readonly class="form-control list" id="floatingPtimeone"
+                                placeholder="委託截止日">
+
+                        </div>
+                        <div class="col-1 p-3 mx-auto">
+                            ~
+                        </div>
+                        <div class="form-floating col-5 p-3">
+
+                            <input type="text" readonly class="form-control list" id="floatingPtimeone"
+                                placeholder="委託截止日">
+                        </div>
+                    </div>
+                </div>
+                <!--委託時間結束-->
+                <!--委託預算-->
+                <div class=" border mb-3">
+                    <div class="form-control-lg ">
+                        委託預算:
+                    </div>
+                    <div class="form-floating col-12 p-3 ">
+
+                        <input type="text" readonly class="form-control list">
+                    </div>
+                </div>
+                <!--委託預算結束-->
+                <!--委託地點-->
+
+                <div class="border p-3  mb-3">
+                    <div class="form-control-lg">
+                        委託工作地點:
+                    </div>
+                    <div class="mb-3 row p-3">
+                        <div class="form-floating col-12 p-3">
+                            <input type="text" readonly class="form-control list">
+
+                        </div>
+                        <div class="form-control-lg">
+                            指定工作地址:
+                        </div>
+                        <div class="form-floating col-12 p-3">
+
+                            <input type="text" readonly class="form-control list">
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--委託地點END-->
+                <!--委託付款-->
+                <div class="border p-3 mb-3">
+                    <div class="form-control-lg">
+                        委託付款方式:
+                    </div>
+                    <div class="form-floating col-12 p-3 ">
+
+                        <input type="text" readonly class="form-control list">
+                    </div>
+                </div>
+                <!--委託付款END-->
+              
+                    <div class="form-floating col-12 mx-auto p-3 ">
+                        <input type="submit" value="返回" class="btn btn-outline-secondary" id="submit"
+                            >
+
+                    </div>
+                   
+             
+               
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/expert.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

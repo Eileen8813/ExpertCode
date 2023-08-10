@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "ExpertResumeView";
+}
+
+<h2>專家履歷</h2>
+<div>
+    <img src="" />
+</div>
+<div class="bg-body-secondary">
+    <div class="col-lg-6 wow fadeIn " data-wow-delay="0.5s">
+        <h1>專家姓名</h1>
+        <p class="mb-4">
+            居住地區
+            <select>
+                <option>縣市</option>
+            </select>
+            <select>
+                <option>鄉鎮</option>
+            </select>
+        </p>
+        <p>
+            <i class="fa fa-check text-primary me-3"></i>工作時段:
+            <select>
+                <option>請選擇</option>
+            </select>
+        </p>
+
+        <p><i class="fa fa-check text-primary me-3"></i>相關網址:</p>
+        <p><i class="fa fa-check text-primary me-3"></i>聯絡方式:</p>
+
+        <p><i class="fa fa-check text-primary me-3"></i>基本價格:</p>
+        <p><i class="fa fa-check text-primary me-3"></i>被點閱次數</p>
+        <a class="btn btn-primary py-3 px-5 mt-3">詳細</a>
+    </div>
+    <div class="col-lg-6 wow fadeIn " @*class="invisible"*@ id="resumedetail">
+        <p><i class="fa fa-check text-primary me-3"></i>自我介紹</p>
+        <p><i class="fa fa-check text-primary me-3"></i>服務內容:</p>
+        <p><i class="fa fa-check text-primary me-3"></i>收費方式:</p>
+        <p><i class="fa fa-check text-primary me-3"></i>相關問題:</p>
+    </div>
+</div>
